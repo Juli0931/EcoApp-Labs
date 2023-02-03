@@ -10,14 +10,12 @@ function setup() {
 }
 
 function draw() {
-    //background(0, 50);
-    background(0);
+    background(0, 50);
     newCursor();
-    
 }
 
 function mouseClicked(){
-
+    //Put here your fetch functions
 }
 
 function windowResized() {
