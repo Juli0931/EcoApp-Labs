@@ -3,4 +3,48 @@
     margin: 0;
     padding: 0;
     cursor: none;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: medium;
+}
+
+#Nav{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+h1, h3, p{
+    margin: 8vh auto;
+    text-align: center;
+    color: #ffff;
+}
+
+button{
+    border: solid 2px #ffff;
+    background-color: #000000;
+    color: #ffff;
+    padding: 1vh 1vw;
+    border-radius: 8px;
+    margin: 0 2vw;
+}
+
+button:hover{
+    background-color: #ffff;
+    color: #000000;
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+
+#Render{
+    margin: 10vh 20vw;
+    padding: 5vh 5vw;
+    border: solid 2px #ffff;
+    border-radius: 20px;
+}
+
+.somePic{
+    margin-left: 18vw;
+    width: 25%;
+    height: 25%;
 }
